@@ -4,7 +4,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
 
 # load dataset
-data = pd.read_csv("creditcard.csv")
+data = pd.read_csv("creditcard.csv")  # download dataset from Kaggle link in README
 
 # separate features and target
 X = data.drop("Class", axis=1)
